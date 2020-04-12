@@ -1,18 +1,24 @@
+## My playground
 ## Table of contents
 - [Computer Vision](#computer-vision)
 - [Methods](#methods)
-- [TODO](#todo)
+- [TODO](#TODO)
 - [References](#references)
 
 ## Computer Vision
 - [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
 
 ## Methods
+### Difference of Gaussian
+- [Algorithm](http://fourier.eng.hmc.edu/e161/lectures/gradient/node9.html)
+
 ### Bilateral filter
 - [Github](https://github.com/anlcnydn/bilateral)
+- [Algorithm](http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/python-bilateral-filtering/)
 
-### Subpixel localization
-- [Algorithm](https://staff.fnwi.uva.nl/r.vandenboomgaard/IPCV20162017/LectureNotes/IP/LocalStructure/SubpixelLocalization.html)
+### Markov random field
+- [Github](https://github.com/AliMorty/Markov-Random-Field-Project)
 
 ### SIFT
 - [Github](https://github.com/SamL98/PySIFT)
@@ -29,33 +35,33 @@
 ## TODO
 | Task | Status |
 | :--: | :---: |
-| pixel transform | :white_check_mark: |
-| gamma correction | :white_check_mark: |
-| image blending | :white_check_mark: |
-| histoglram equalization | :white_check_mark: |
-| gaussian filter | :white_check_mark: |
-| LoG filter | :white_check_mark: |
-| sobel filter | :white_check_mark: |
-| bilateral filter | :white_check_mark: |
-| steerable filter | todo |
-| wiener filter | todo |
-| SSIM metric | todo |
-| image moment | todo |
-| upsampling | todo |
-| downsampling | todo |
-| differences of gaussian | :white_check_mark: |
-| laplacian pyramid blending | todo |
-| wavelet filter | todo |
-| bilinear interpolation | todo |
-| forward warping | todo |
-| inverse warping | todo |
-| multi-pass transform | todo |
-| naive bayes denosing | :white_check_mark: |
-| markov random field | :white_check_mark: |
-| conditional random field | todo |
-| corner detection | todo |
-| SIFT feature | todo |
-| canny edge detection | todo |
+| Pixel transform | :heavy_check_mark: |
+| Gamma correction | :heavy_check_mark: |
+| Image blending | :heavy_check_mark: |
+| Histoglram equalization | :heavy_check_mark: |
+| Gaussian filter | :heavy_check_mark: |
+| LoG filter | :heavy_check_mark: |
+| Sobel filter | :heavy_check_mark: |
+| Bilateral filter | :heavy_check_mark: |
+| Steerable filter | TODO |
+| Wiener filter | TODO |
+| SSIM metric | TODO |
+| Image moment | TODO |
+| Upsampling | TODO |
+| Downsampling | TODO |
+| Differences of gaussian | :heavy_check_mark: |
+| Laplacian pyramid blending | TODO |
+| Wavelet filter | TODO |
+| Bilinear interpolation | TODO |
+| Forward warping | TODO |
+| Inverse warping | TODO |
+| Multi-pass transform | TODO |
+| Naive bayes denosing | :heavy_check_mark: |
+| Markov random field | :heavy_check_mark: |
+| Conditional random field | TODO |
+| Clorner detection | TODO |
+| SIFT feature | TODO |
+| Canny edge detection | TODO |
 
 ## References
 ### Image derivative
@@ -66,3 +72,6 @@
 
 ### Eigen values, vectors
 - [Lecture note](https://math.mit.edu/~gs/linearalgebra/ila0601.pdf)
+
+### Subpixel localization
+- [Algorithm](https://staff.fnwi.uva.nl/r.vandenboomgaard/IPCV20162017/LectureNotes/IP/LocalStructure/SubpixelLocalization.html)
